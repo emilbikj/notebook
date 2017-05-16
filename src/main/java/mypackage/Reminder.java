@@ -13,7 +13,7 @@ public class Reminder extends Note {
         return time;
     }
 
-    public void setTime(Date time) {
+    void setTime(Date time) {
         this.time = time;
     }
 

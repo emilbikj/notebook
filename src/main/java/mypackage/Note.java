@@ -7,16 +7,16 @@ public class Note extends Record {
 
     private String[] note;
 
-    public String getNote() {
-        String str = "<";
-        for (int i = 0; i < note.length; i++) {
-            str = str + note[i] + " ";
+    String getNote() {
+        StringBuilder str = new StringBuilder("<");
+        for (String aNote : note) {
+            str.append(aNote).append(" ");
         }
 
         return str + ">";
     }
 
-    public void setNote(String... note) {
+    void setNote(String... note) {
         this.note = note;
     }
 

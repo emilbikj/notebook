@@ -17,7 +17,7 @@ public class Person extends Record {
         return phone;
     }
 
-    public void setPhone(String[] phone) {
+    void setPhone(String[] phone) {
         this.phone = phone;
     }
 
@@ -25,7 +25,7 @@ public class Person extends Record {
         return email;
     }
 
-    public void setEmail(String email) {
+    void setEmail(String email) {
         this.email = email;
     }
 
@@ -33,7 +33,7 @@ public class Person extends Record {
         return address;
     }
 
-    public void setAddress(String address) {
+    void setAddress(String address) {
         this.address = address;
     }
 
@@ -42,7 +42,7 @@ public class Person extends Record {
         return firstName;
     }
 
-    public void setFirstName(String firstName) {
+    void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
@@ -50,7 +50,7 @@ public class Person extends Record {
         return lastName;
     }
 
-    public void setLastName(String lastName) {
+    void setLastName(String lastName) {
         this.lastName = lastName;
     }
 

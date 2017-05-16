@@ -13,7 +13,7 @@ import java.util.Locale;
  */
 public class Notebook {
 
-    ArrayList<Record> records = new ArrayList<>();
+    private ArrayList<Record> records = new ArrayList<>();
 
     @Command
     public ArrayList<Record> list() {
